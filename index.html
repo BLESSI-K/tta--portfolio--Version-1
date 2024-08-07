@@ -46,7 +46,7 @@
             .skill-container{
                 display: flex;
                 justify-content: center;
-                height: 70vh;
+                height: 80vh;
             }
             .skill-card{
                 background-color: #fff;
@@ -64,8 +64,39 @@
             }
             #work-section{
                 text-align: center;
+             }
+            .work-container{
+                display: flex;
+                 justify-content: center;
+                color: gray;
+                height: 80vh;
             }
-        
+            .work-content{
+                border: solid gray;
+                width: 22%;
+                margin:auto 30px ;
+                border-radius: 5px;
+            }
+            .work-content  img{
+               border-top-left-radius: 2px; 
+               border-top-right-radius: 2px;
+            }
+            .work-content p{
+                padding: 50px 20px 15px 12px;
+                font-size:14px ;
+                font-weight: lighter;
+                text-align: justify;
+            }
+            .work-content button{
+                color: gray;
+                background-color:#000000;
+                /*border: 2px solid gray;*/
+                margin: 10px 0px;
+                padding: 10px 15px;
+                cursor: pointer;
+                /*border-radius:3px;*/
+                border: none;
+            }
         </style>
         
     </head>
@@ -110,11 +141,39 @@
                     as skill
                   </p>
                 </div>
-             </div>
-       
-       </section>
-       <section id="work-section">
+                 </div>
+            
+               </section>
+             <section id="work-section">
         <h1>Worked on</h1>
+        <div class="work-container">
+            <div class="work-content work 1">
+            <img src="./work 1.jpg   " width="334" height="220"  alt="pervious work 1">
+            <p>This the example of what I worked on to make it
+                more nice and idea that can change the way of
+                doinhg thing using my work experience </p>
+                <button>Continue leading</button>
+            </div>
+            <div class="work-content work 2">
+                <img src="./work 2.jpg  " width="334" height="220"  alt="pervious work 2">
+                <p>This the example of what I worked on to make it
+                    more nice and idea that can change the way of
+                    doinhg thing using my work experience </p> 
+                    <button>Continue leading</button>
+
+            </div>
+            <div class="work-content work3">
+                <img src="./work 3.jpg" width="334" height="220"  alt="pervious work 3">
+                <p>This the example of what I worked on to make it
+                    more nice and idea that can change the way of
+                    doinhg thing using my work experience </p>
+                    <button>Continue leading</button>
+            </div>
+        </div>
+
+
+
+
 
        </section>
     </body>

@@ -3,10 +3,12 @@
     <head> 
         <title> portfolio V1 </title>
         <style>
+            /*this the General styling for the whole section webpage*/
             body{
                 background-color: black;
                 color:  white;
             }
+            /* this the styling for the home section*/
             .same-margin{
                 margin:auto;
             }
@@ -40,6 +42,7 @@
             .div-2 img{
                 border-radius:5px;
             }
+            /* This is styling for skills-section*/
             #skills-section{
                 text-align: center;
             }
@@ -62,6 +65,7 @@
             .skill-card p{
                 color: gray;
             }
+            /*this styling for previous work section*/
             #work-section{
                 text-align: center;
              }
@@ -97,9 +101,42 @@
                 /*border-radius:3px;*/
                 border: none;
             }
+            /* this is styling for testimonials-section*/
             #testimonials-section{
                 text-align: center;
                 margin: 7px 0px;
+            }
+               
+            .test-container{
+                display:flex;
+                justify-content: center;
+                height: 90vh;
+            }
+            .test-content{
+                width: 50%;
+            }
+            .test-word{
+                text-align: justify;
+                padding: 30px 45px;
+                margin-left: 35px;
+            }
+            .test-word p{
+                color: gray;
+                padding: 5px 0px;
+            }
+            .test-word button{
+                border: none;
+                border-radius: 3px;
+                padding: 13px 23px;
+                font-size: 11px;
+                font-weight: bold ;
+                color:#ffffff;
+                background-color: rgb(20, 174, 20);
+                cursor: pointer;
+
+            }
+            .test-img img{
+                border-radius: 50%;
             }
         </style>
         
@@ -178,17 +215,18 @@
 
         <section id="testimonials-section">
          <h1>Testimonials</h1>
-         <div class="test-content">
-          <div class="test-content">
+         <div class="test-container">
+          <div class="test-content test-word">
              <h1>Ucyeye Ngoga Blessing</h1>
              <p>he maked a lot different project that well benefit to our group tech
-                who are still searching for better way to learn every important thing in  world of 
-                tech
+                who are still searching for better way to learn every important thing 
+                in world of tech industry and it will  help every young kid to try it out
+                
              </p>
              <button> Read more > </button>
           </div>
-          <div  class="test-content">
-
+          <div  class="test-content  test-img">
+             <img src="./female member.webp"  width="300"   height="300"     alt="testimonials img">
           </div>
          </div>
         </section>
